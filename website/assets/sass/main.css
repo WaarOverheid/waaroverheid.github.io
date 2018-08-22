@@ -1671,10 +1671,15 @@ hr {
 .align-right {
   text-align: right; }
 
-body.contrast h2,
-body.contrast p,
-body.contrast a {
+h2,
+p,
+a {
   color: #000; }
+
+body.soft h2,
+body.soft p,
+body.soft a {
+  color: #fff; }
 
 /* Section/Article */
 section.special,
